@@ -10,15 +10,13 @@ website:
   
   # start of the navigation bar at the top of the website
   navbar:
-    pinned: false
-    logo: /img/logo.png
+    pinned: true
+    logo: /img/SiegelUniKoeln.png
     
     # your sub-pages
     left:
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
       - text: "CV"
         href: cv/index.qmd
     

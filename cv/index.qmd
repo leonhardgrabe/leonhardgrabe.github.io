@@ -6,9 +6,9 @@ execute:
   freeze: true  # never re-render during project render
 engine: knitr 
 resources:
-  - "cv.pdf"
+  - "academic_cv_grabe_nov24"
 cv:
-  pdf: "cv.pdf"
+  pdf: "academic_cv_grabe_nov24"
 ---
 
 ```{css echo=FALSE}
@@ -38,13 +38,5 @@ cv:
 </p>
 <div class="embed-container">
   <iframe src="`r rmarkdown::metadata$cv$pdf`#toolbar=0" style="border: 0.5px;width: 100%;"></iframe>
-</div>
-```
-
-
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
 </div>
 ```
