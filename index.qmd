@@ -1,6 +1,6 @@
 ---
 about:
-  template: trestles
+  template: jolla
   id: about-block
   image: "img/portrait_square.jpg"
   links:
@@ -20,9 +20,9 @@ about:
 
 # About Me
 
-I am a PhD candidate at the [Chair for Personnel Economics](https://cd.wiso.uni-koeln.de/de/team/personalwirtschaftslehre) at the University of Cologne and a member of [C-SEB](https://c-seb.de/).
+I am a PhD candidate at the [Chair for Personnel Economics](https://cd.wiso.uni-koeln.de/de/team/personalwirtschaftslehre) at University of Cologne and a member of [C-SEB](https://c-seb.de/).
 
-My resesarch covers topics in personnel economics and managerial accounting. I am particularly interested the management of employee skills. I cooperate extensively with public and private organizations where I conduct field experiments, longitudinal survey and analyze performance data.
+My research covers topics in personnel economics and managerial accounting. I am particularly interested the management of employee skills. I cooperate extensively with public and private organizations where I conduct field experiments, longitudinal survey and analyze performance data.
 
 You can find me current CV [here](https://drive.google.com/file/d/1sQoj0FTfBsFI8CJNOIkBvMQYXdSD1UlC/view?usp=sharing)
 
