@@ -27,9 +27,3 @@ My resesarch covers topics in personnel economics and managerial accounting. I a
 You can find me current CV [here](https://drive.google.com/file/d/1sQoj0FTfBsFI8CJNOIkBvMQYXdSD1UlC/view?usp=sharing)
 
 My email is: [grabe\[at\]wiso.uni-koeln.de]{.underline}
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">This site is based on the template by Marvin Schmitt</a>
-</div>
-```

@@ -10,7 +10,7 @@ website:
   
   # start of the navigation bar at the top of the website
   navbar:
-    pinned: true
+    pinned: false
     logo: /img/logo.png
     
     # your sub-pages
@@ -40,9 +40,9 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2024 Leonhard Grabe CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">This webpage is based on a template by Marvin Schmitt</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
 
