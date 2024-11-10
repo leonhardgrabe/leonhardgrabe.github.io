@@ -31,11 +31,6 @@ cv:
 ```
 
 ```{=html}
-<p class="text-center">
-  <a class="btn btn-secondary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
-  </a>
-</p>
 <div class="embed-container">
   <iframe src="`r rmarkdown::metadata$cv$pdf`#toolbar=0" style="border: 0.5px;width: 100%;"></iframe>
 </div>
