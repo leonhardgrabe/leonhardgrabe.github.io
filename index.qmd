@@ -2,7 +2,7 @@
 about:
   template: jolla
   id: about-block
-  image: "img/my_image.jpg"
+  image: "img/portrait_square.jpg"
   links:
     - icon: twitter
       text: Twitter
