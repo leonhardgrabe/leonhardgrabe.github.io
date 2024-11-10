@@ -1,6 +1,6 @@
 ---
 about:
-  template: jolla
+  template: trestles
   id: about-block
   image: "img/portrait_square.jpg"
   links:
