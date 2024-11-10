@@ -4,9 +4,9 @@
 website:
   title: "Leonhard Grabe"                                # Your name
   description: "I am currently a PhD Candidate at the University of Cologne. My resesarch covers popular topics in personnel economics and managerial accounting. I am particularly interested the management of employee skills. I cooperate extensively with public and private organizations where I conduct field experiments, longitudinal survey and analyze performance data."   # A brief slogan (optional)
-  image: img/my_image.jpg
+  image: img/portrait_square.jpg
   
-  favicon: img/favicon.png
+  favicon: img/SiegelUniKoeln.png
   
   # start of the navigation bar at the top of the website
   navbar:
