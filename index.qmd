@@ -12,7 +12,10 @@ about:
       href: https://www.linkedin.com/in/leonhardgrabe
     - icon: envelope
       text: Email
-      href: "mailto:grabe@wiso.uni-koeln.de"  
+      href: "mailto:grabe@wiso.uni-koeln.de"
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.de/citations?user=clle26EAAAAJ&hl=de
 ---
 
 ::: {#about-block}
@@ -20,10 +23,8 @@ about:
 
 # About Me
 
-I am a PhD candidate at the [Chair for Personnel Economics](https://cd.wiso.uni-koeln.de/de/team/personalwirtschaftslehre) at University of Cologne and a member of [C-SEB](https://c-seb.de/).
+I am a PhD candidate at the [Chair for Personnel Economics](https://cd.wiso.uni-koeln.de/de/team/personalwirtschaftslehre) at University of Cologne and a member of [C-SEB](https://c-seb.de/). My research covers topics in personnel economics and managerial accounting, such as employee development and incentives. I cooperate extensively with public and private organizations where I conduct field experiments, longitudinal surveys and analyze performance data.
 
-My research covers topics in personnel economics and managerial accounting. I am particularly interested the management of skills. I cooperate extensively with public and private organizations where I conduct field experiments, longitudinal surveys and analyze performance data.
-
-You can find me current CV [here](https://drive.google.com/file/d/1sQoj0FTfBsFI8CJNOIkBvMQYXdSD1UlC/view?usp=sharing)
+You can find me current CV [here](https://leonhardgrabe.github.io/cv/)
 
 My email is: [grabe\[at\]wiso.uni-koeln.de]{.underline}
