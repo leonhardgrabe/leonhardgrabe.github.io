@@ -6,12 +6,10 @@ callout-appearance: simple
 
 ---
 
-### Working Papers
-
 ##### **Managing Skills in Organizations: Evidence from a Field Experiment [\[Working Paper\]](https://docs.iza.org/dp17727.pdf "IZA Working Paper")**
 with [Dirk Sliwka](https://dsliwka.github.io/) (R&R at *Management Science*)
 
-::: {.callout-note title="Abstract" collapse=true} 
+::: {.callout title="Abstract" collapse=true} 
 
 We study the value of skill management in organizations. In a natural field experiment with 2,583 service technicians, we exogenously vary managers’ ability to monitor and manage employee skills. We show that skill management is crucial to firm productivity, as removing managers’ access to hard information on employee skill assessments reduced not only overall training intensity but also work performance and employee job satisfaction. Combining detailed personnel records and survey data, we show that the intervention reduced managerial attention towards highly skilled employees, who received less training to broaden their skill set. As a result, performance losses are driven by substantially higher completion times for complex work assignments.
 
@@ -32,11 +30,24 @@ with [*Dirk Sliwka*](https://dsliwka.github.io/) *& [Anne Burmeister](https://cd
 Organizations can leverage leadership and technology to facilitate employee training; however, it is not clear whether leader contact and the use of online learning platforms are substitutes or complements. In a longitudinal firm-level field experiment with 3246 mobile service technicians and 187 supervisors, we tested the effectiveness of two interventions that either substituted or enhanced leader contact in the development process against a control group: In the contact support intervention supervisors receive a new feature that enhances leadership contact through reminders and dashboards, while in the scheduling support intervention, supervisors receive a new feature that makes it easier for them to schedule trainings without consulting their employees. We found that the contact support intervention had significant effects on employee training, job satisfaction and job performance. As a result, the firm rolled out the intervention to all employees permanently. The estimated ROI of the intervention was 807%. Our study underlines the value of leader contact in the employee development process.
 
 ------------------------------------------------------------------------
+##### **Learning from Errors: Evidence from the Field [\[Pre-Print\]](https://drive.google.com/file/d/1OZD84A30QiHg5AQ_gfjhHcpqbjPQve58/view?usp=drive_link)**
+solo-authored
 
+Mistakes are an inevitable part of work, and managers play a central role in
+preventing and addressing them. While a large literature examines how to
+prevent errors from recurring, evidence on their indirect effects on subsequent
+performance is scarce. This paper studies the learning effects of error management
+across 50 firms and 3,200 technicians. Using an event study design, I show that
+employee output strongly increases after a manager has confronted an employee
+with an error reported by an external party. The effects are large and persistent,
+but come at the cost of a modest reduction in assignment quality. The increase in
+output is driven by initially low-performing employees, who have lower ex-ante
+knowledge and a longer learning curve, suggesting that the intervention led
+them to learn from their mistakes. These results highlight the indirect effect of
+behavioral controls on employee productivity.
+
+------------------------------------------------------------------------
 ### Work in Progress
-
-Errors, Consequences, and Performance: Evidence from the Field 
-(*solo-authored*)
 
 Gamified Learning and Monetary Incentives: A Field Experiment
 (*with Simon Lübke & Dirk Sliwka*)
