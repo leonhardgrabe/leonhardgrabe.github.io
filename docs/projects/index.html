@@ -140,18 +140,126 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 2em auto;
+  }
+
+  .paper {
+    margin-bottom: 2em;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+
+  .authors {
+    color: #005176;
+    font-size: 0.95em;
+  }
+
+  .pubinfo {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.4em;
+  }
+
+  .buttons {
+    margin-bottom: 0.4em;
+  }
+
+  .btn {
+    border: 1px solid #005176;
+    background-color: white;
+    color: #005176;
+    font-size: 0.8em;
+    padding: 3px 8px;
+    margin-right: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #005176;
+    color: white;
+  }
+
+  .abstract {
+    display: none;
+    margin-top: 0.5em;
+    padding-left: 1em;
+    border-left: 3px solid #005176;
+    color: #333;
+    font-size: 0.9em;
+  }
+</style>
+<script>
+  function toggleAbstract(id, btn) {
+    const el = document.getElementById(id);
+    const isHidden = el.style.display === "none" || el.style.display === "";
+    el.style.display = isHidden ? "block" : "none";
+    btn.textContent = isHidden ? "Hide Abstract" : "Show Abstract";
+  }
+</script>
+
+
+<div class="paper">
+<div class="title">
+Managing Skills in Organizations – Evidence from a Field Experiment
+</div>
+<div class="authors">
+Leonhard Grabe, Dirk Sliwka
+</div>
+<div class="pubinfo">
+R&amp;R Management Science
+</div>
+<div class="buttons">
+<pre><code>&lt;a href="https://www.iza.org/publications/dp/17727" class="btn" target="_blank"&gt;WEB&lt;/a&gt;
+&lt;button class="btn" onclick="toggleAbstract('abs1', this)"&gt;Show Abstract&lt;/button&gt;</code></pre>
+</div>
+<div id="abs1" class="abstract">
+We study the value of skill management in organizations. In a natural field experiment with 2,583 service technicians, we exogenously vary managers’ ability to monitor and manage employee skills. We show that skill management is crucial to firm productivity, as removing managers’ access to hard information on employee skill assessments reduced not only overall training intensity but also work performance and employee job satisfaction. Combining detailed personnel records and survey data, we show that the intervention reduced managerial attention towards highly skilled employees, who received less training to broaden their skill set. As a result, performance losses are driven by substantially higher completion times for complex work assignments.
+</div>
+</div>
+<div class="paper">
+<div class="title">
+Shaping Habits in Organizations: A Field Experiment
+</div>
+<div class="authors">
+Leonhard Grabe, Saskia Opitz, Dirk Sliwka
+</div>
+<div class="pubinfo">
+Available at SSRN 5270947
+</div>
+<div class="buttons">
+<pre><code>&lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5270947" class="btn" target="_blank"&gt;SSRN&lt;/a&gt;
+&lt;button class="btn" onclick="toggleAbstract('abs2', this)"&gt;Show Abstract&lt;/button&gt;</code></pre>
+</div>
+<div id="abs2" class="abstract">
+In a field experiment with 829 service technicians in 15 firms, we investigated whether providing a temporary incentive to engage in a novel task over a certain period of time leads to persistent behavior change. We randomly allocated half of the technicians in each firm to a treatment group who received bonuses for regularly performing sales activities for 12 weeks. We find a significant increase in sales performance not only during but also after the incentive phase. Using a post-experimental survey we compare different behavioral channels. We find no evidence for increased automaticity, human capital acquisition, or signals about task priorities, but strong evidence for the role of acquired taste: Technicians in the treatment group report a significantly higher levels of intrinsic motivation not only for the sales activity but also for another customer-oriented task.
+</div>
+</div>
+
+
 <section id="working-papers" class="level3">
 <h3 class="anchored" data-anchor-id="working-papers">Working Papers</h3>
 <hr>
 <section id="managing-skills-in-organizations-evidence-from-a-field-experiment-working-paper" class="level5">
 <h5 class="anchored" data-anchor-id="managing-skills-in-organizations-evidence-from-a-field-experiment-working-paper"><strong>Managing Skills in Organizations: Evidence from a Field Experiment <a href="https://docs.iza.org/dp17727.pdf" title="IZA Working Paper">[Working Paper]</a></strong></h5>
-<p>with <a href="https://dsliwka.github.io/">Dirk Sliwka</a></p>
+<p>with <a href="https://dsliwka.github.io/">Dirk Sliwka</a> (R&amp;R at <em>Management Science</em>)</p>
 <p>We study the value of skill management in organizations. In a natural field experiment with 2,583 service technicians, we exogenously vary managers’ ability to monitor and manage employee skills. We show that skill management is crucial to firm productivity, as removing managers’ access to hard information on employee skill assessments reduced not only overall training intensity but also work performance and employee job satisfaction. Combining detailed personnel records and survey data, we show that the intervention reduced managerial attention towards highly skilled employees, who received less training to broaden their skill set. As a result, performance losses are driven by substantially higher completion times for complex work assignments.</p>
 <hr>
 </section>
 <section id="shaping-habits-in-organizations---a-field-experiment-working-paper" class="level5">
 <h5 class="anchored" data-anchor-id="shaping-habits-in-organizations---a-field-experiment-working-paper"><strong>Shaping Habits in Organizations - A Field Experiment <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5270947" title="SSRN Working Paper">[Working Paper]</a></strong></h5>
-<p>with <a href="https://sites.google.com/view/saskia-opitz/startseite#"><em>Saskia Opitz</em></a> &amp; <a href="https://dsliwka.github.io/"><em>Dirk Sliwka</em></a></p>
+<p>with <a href="https://sites.google.com/view/saskia-opitz/startseite#"><em>Saskia Opitz</em></a> &amp; <a href="https://dsliwka.github.io/"><em>Dirk Sliwka</em></a> (R&amp;R at Management Science)</p>
 <p>In a field experiment with 829 service technicians in 15 firms, we investigated whether providing a temporary incentive to engage in a novel task over a certain period of time leads to persistent behavior change. We randomly allocated half of the technicians in each firm to a treatment group who received bonuses for regularly performing sales activities for 12 weeks. We find a significant increase in sales performance not only during but also after the incentive phase. Using a post-experimental survey we compare different behavioral channels. We find no evidence for increased automaticity, human capital acquisition, or signals about task priorities, but strong evidence for the role of acquired taste: Technicians in the treatment group report a significantly higher levels of intrinsic motivation not only for the sales activity but also for another customer-oriented task.</p>
 <hr>
 </section>
