@@ -4,4 +4,5 @@
 .Ruserdata
 
 /.quarto/
-.DS_Store
+.DS_Storecurrent_docs/
+Claude outputs/
