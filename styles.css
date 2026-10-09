@@ -1,0 +1,168 @@
+/* ==========================================================
+   leonhardgrabe.github.io — single stylesheet
+   Change --accent to re-colour the whole site.
+   ========================================================== */
+
+:root {
+  --accent: #1d3f6e;        /* links, titles, buttons */
+  --accent-soft: #eef2f8;   /* button hover background on light */
+  --text: #111;
+  --muted: #555;
+  --bg: #fff;
+  --rule: #e3e6ea;
+  --sidebar: 260px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a { color: var(--accent); }
+a:hover { text-decoration-thickness: 2px; }
+
+/* ---------- Layout: sidebar + main ---------- */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 24px 48px;
+  display: flex;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.sidebar { flex: 0 0 var(--sidebar); }
+.main    { flex: 1; min-width: 0; }
+
+/* ---------- Sidebar ---------- */
+.portrait {
+  display: block;
+  width: 100%;
+  max-width: var(--sidebar);
+  height: auto;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar .name-mobile { display: none; }
+
+.position { line-height: 1.45; margin-bottom: 0.75rem; }
+.position span { display: block; }
+.position .role { font-weight: 600; }
+
+.email { text-decoration: none; }
+
+.socials { display: flex; gap: 8px; margin-top: 1rem; }
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: var(--accent);
+  transition: background-color .15s, color .15s;
+}
+.icon-btn:hover { background: var(--accent); color: #fff; }
+.icon-btn svg { width: 17px; height: 17px; display: block; }
+
+/* ---------- Main column ---------- */
+h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 0.9rem; }
+
+.tabs { display: flex; margin-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+.tabs a {
+  padding: 6px 18px 6px;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.tabs a:first-child { padding-left: 0; }
+.tabs a:hover { color: var(--text); }
+.tabs a[aria-current="page"] { border-bottom-color: var(--accent); }
+
+h2 {
+  font-size: 1.35rem;
+  margin: 2.25rem 0 1rem;
+}
+.main h2:first-of-type { margin-top: 0; }
+
+p { margin-bottom: 1rem; }
+
+/* ---------- Paper entries ---------- */
+.paper { margin-bottom: 1.9rem; line-height: 1.45; }
+
+.paper-title {
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.1rem;
+}
+
+.paper-meta { color: var(--text); }
+.paper-meta a { color: inherit; text-decoration: none; }
+.paper-meta a:hover { text-decoration: underline; }
+.venue { font-style: italic; }
+.award { color: var(--muted); font-size: 0.95rem; }
+.award::before { content: "★ "; color: var(--accent); }
+
+.buttons { margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 6px; }
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 0 10px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--accent);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .15s, color .15s;
+}
+.btn:hover,
+.btn[aria-expanded="true"] { background: var(--accent); color: #fff; }
+
+/* external links get a small arrow */
+a.btn[target="_blank"]::after { content: " ↗"; font-size: 0.85em; }
+
+/* Placeholder links (href="#") — visible while editing, delete .todo when done */
+.btn.todo { border-style: dashed; }
+
+/* Collapsible panels under a paper */
+.panel {
+  margin-top: 0.7rem;
+  padding: 0.1rem 0 0.1rem 1rem;
+  border-left: 3px solid var(--accent);
+  line-height: 1.5;
+}
+.panel[hidden] { display: none; }
+.panel p { margin: 0; }
+.coverage-list a { white-space: nowrap; text-decoration: none; }
+.coverage-list a:hover { text-decoration: underline; }
+
+/* ---------- Footer ---------- */
+.footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 760px) {
+  .page { flex-direction: column; gap: 24px; padding: 28px 16px 40px; }
+  .sidebar { flex: none; width: 100%; text-align: center; }
+  .portrait { max-width: 200px; margin: 0 auto 1rem; }
+  .sidebar .name-mobile { display: block; font-size: 1.6rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .main .name-desktop { display: none; }
+  .socials { justify-content: center; }
+  .tabs { justify-content: center; }
+  .tabs a:first-child { padding-left: 18px; }
+  h2 { font-size: 1.15rem; }
+}

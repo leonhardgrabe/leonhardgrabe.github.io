@@ -2,7 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
-
 /.quarto/
-.DS_Storecurrent_docs/
+.DS_Store
+
+# not part of the website
+current_docs/
 Claude outputs/
